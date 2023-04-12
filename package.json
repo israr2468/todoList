@@ -1,0 +1,21 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Create a repo with .gitignore and readme file  Clone the repo Create a migration and seed file  Create a database  Install npm init and other dependencies  request.http file     routes:          / get all to dos         / get todo by id         / delete to do          / update to do - patch or put          / add to do",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0"
+  }
+}

@@ -1,0 +1,29 @@
+### CRUD - Create - Read - Update - Delete
+
+### Create 
+POST http://localhost:3030/api/todo
+Content-Type: application/json
+
+{
+    "name": "exam",
+    "due_date": "2023-04-14"
+}
+
+### Read all
+GET http://localhost:3030/api/todo
+
+### Read by id
+GET http://localhost:3030/api/todo/1
+
+### Update 
+PUT http://localhost:3030/api/todo/1
+Content-Type: application/json
+
+{
+    "name": "Finished the project",
+    "due_date": "2023-04-14"
+}
+
+
+### Delete 
+DELETE http://localhost:3030/api/todo/2

@@ -1,0 +1,1 @@
+INSERT INTO todo (name, due_date) VALUES ('Finish this project', '2023-04-12')
